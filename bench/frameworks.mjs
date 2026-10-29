@@ -12,6 +12,7 @@ export const FRAMEWORKS = {
   qwik: 'Qwik with Qwik City',
   gracile: 'Gracile with Lit',
   'hono-htmx': 'Hono and htmx',
+  marko: 'Marko with Marko Run',
   vanilla: 'vanilla JavaScript or TypeScript with Vite, without a UI framework',
 };
 

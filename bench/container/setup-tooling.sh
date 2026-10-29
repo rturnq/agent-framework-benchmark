@@ -92,8 +92,9 @@ case "$FRAMEWORK" in
     # up front because agents don't always use create-react-router. Docs ship in node_modules.
     skill remix-run/react-router --skill react-router
     ;;
-  tanstack-start | solidstart | qwik | gracile | vanilla)
-    # No official agent tooling (TanStack removed its MCP server in favour of its CLI).
+  tanstack-start | solidstart | qwik | gracile | marko | vanilla)
+    # No official agent tooling (TanStack removed its MCP server in favour of its CLI; Marko
+    # only publishes markojs.com/llms.txt, which agents can find like any other docs).
     ;;
   *)
     echo "Unknown framework: $FRAMEWORK" >&2
